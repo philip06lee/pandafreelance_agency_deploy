@@ -10,16 +10,15 @@ export default function Home({ services }) {
   return (
     <div>
       <Head>
-        <title>AV0CAD0 Digital Product Agency</title>
+        <title>PANDAFREELANCE Employment Agency</title>
         <meta
           name="description"
-          content="Web Design, App Development, Content Creation Agency Near Sweden"
+          content="Employment Agency to get the best job in Singapore"
         />
       </Head>
       <Intro />
       <Services services={services} />
       <Testimonials />
-
     </div>
   );
 }

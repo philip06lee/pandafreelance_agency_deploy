@@ -1,11 +1,11 @@
 .container {
-    height: 250px;
+    height: 150px;
     border-top: 3px solid black;
     display: flex;
     align-items: center;
     justify-content: space-around;
     font-size: 18px;
-    padding: 50px;
+    padding: 30px;
   }
   
   .title {
@@ -39,8 +39,8 @@
   }
   
   .linkText{
-      margin-right: 20px;
-      cursor: pointer;
+    margin-right: 20px;
+    cursor: pointer;
   }
   
   .cardL {
@@ -52,13 +52,17 @@
   }
   
   .cardItem {
-    font-size: 14px;
+    font-size: 20px;
     margin-bottom: 20px;
-    text-align: right;
-  
-
+    text-align: center;
   }
-  
+
+  .cardCopyright {
+    font-size: 12px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+ 
   @media screen and (max-width: 480px) {
     .container {
       height: auto;
@@ -67,18 +71,16 @@
   
     .title,
     .linkTitle {
-      font-size: 30px;
+      font-size: 20px;
+      display: flex;
     }
   
     .cardItem{
       text-align: center;
-
-      }
+    }
   }
-
   
-  .icons{
-    
+  .icons{    
     font-size: 30px;
     display: flex;
     gap: 10px;

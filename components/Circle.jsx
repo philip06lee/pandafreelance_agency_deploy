@@ -8,3 +8,4 @@ const Circle = ({ top, left, bottom, right, backgroundColor }) => {
   };
   
   export default Circle;
+  

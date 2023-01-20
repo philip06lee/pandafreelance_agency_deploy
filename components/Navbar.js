@@ -2,26 +2,23 @@ import { useState } from "react";
 import style from "../styles/Navbar.module.css";
 import Link from "next/link";
 
-
-
 const Navbar = () => {
   const [open, setOpen] = useState(false);
-
   return (
     <div className={style.container}>
-      <Link href="/">AV0CAD0</Link>
+      <Link href="/">PANDAFREELANCE</Link>
       <ul className={style.list}>
         <li className={style.listItem}>
           <Link href="/products/design">DESIGN</Link>
         </li>
         <li className={style.listItem}>
-          <Link href="/products/development">DEVELOPMENT</Link>
+          <Link href="/products/construction">CONSTRUCTION</Link>
         </li>
         <li className={style.listItem}>
-          <Link href="/products/production">PRODUCTION</Link>
+          <Link href="/products/technology">TECHNOLOGY</Link>
         </li>
         <li className={style.listItem}>
-          <Link href="/products/photography">PHOTOGRAPHY</Link>
+          <Link href="/products/others">OTHERS</Link>
         </li>
         <li className={style.listItem}>
           <Link href="/contact">CONTACT</Link>
@@ -40,20 +37,16 @@ const Navbar = () => {
           <Link href="/products/design">DESIGN</Link>
         </li>
         <li className={style.menuItem}>
-          <Link href="/products/development">DEVELOPMENT</Link>
+          <Link href="/products/construction">CONSTRUCTION</Link>
         </li>
         <li className={style.menuItem}>
-          <Link href="/products/production">PRODUCTION</Link>
+          <Link href="/products/technology">TECHNOLOGY</Link>
         </li>
         <li className={style.menuItem}>
-          <Link href="/products/photography">PHOTOGRAPHY</Link>
+          <Link href="/products/others">OTHERS</Link>
         </li>
         <li className={style.menuItem}>
           <Link href="/contact">CONTACT</Link>
-
-
-
-
         </li>
       </ul>
     </div>
